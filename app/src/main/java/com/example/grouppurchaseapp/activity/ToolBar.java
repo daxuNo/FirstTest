@@ -19,6 +19,7 @@ public class ToolBar extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tool_bar);
+        //更改测试s
         mToolbar = findViewById(R.id.toolbar);
         //设置主标题     需要设置在setSupportActionBar之前
         mToolbar.setTitle("主标题");
