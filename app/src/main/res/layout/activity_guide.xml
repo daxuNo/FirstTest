@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".activity.GuideActivity">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPage_guide"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="43dp"
+        android:id="@+id/btn_start"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="150dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="@color/white"
+        android:visibility="gone"
+        android:text="开吃吧"
+        android:textSize="25sp"
+        android:background="@color/guide_bg"
+        />
+
+</FrameLayout>
